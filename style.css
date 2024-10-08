@@ -36,7 +36,7 @@ body{
   letter-spacing: 1px;
   font-weight: 600;
 }
-.header .navbars ul{
+header .navbars ul{
   display: flex
 }
 header .navbars ul li{
@@ -48,7 +48,8 @@ header .navbars ul li a{
   font-size: 0.9rem;
   font-weight: 600;
   transition: .5s ease;
-}.header .navbars ul li .home-nv,a:hover{
+}
+header .navbars ul li .home-nv,a:hover{
   color: #fea116;
 }
 header .btn{
@@ -77,25 +78,21 @@ header .btn:hover{
     overflow: hidden;
     opacity: 0;
     transition: height 0.5s ease, opacity 0.5s ease;
-  }
-  
+ }
    .navbars.active {
     height: 400px;
     opacity: 1;
   }
-  
   .navbars ul {
     display: block;
     text-align: center;
     margin: 60px auto 0;
   }
-  
   .navbars ul {
     display: block;
     text-align: center;
     margin: 60px auto 0;
   }
-}
   .logo{
     margin-left: 3rem;
     z-index: 10001;
